@@ -1,0 +1,79 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background: #efefef; }
+
+main {
+  width: 100%;
+  padding: 4vw; }
+  main section {
+    width: 100%; }
+    main section::after {
+      content: '';
+      display: block;
+      clear: both; }
+    main section .item-sizer {
+      width: 12%;
+      height: 0px;
+      opacity: 0; }
+    main section .item {
+      float: left;
+      width: 12%;
+      height: 150px;
+      padding: 5px; }
+      main section .item:nth-of-type(2), main section .item:nth-of-type(4), main section .item:nth-of-type(6), main section .item:nth-of-type(11), main section .item:nth-of-type(14), main section .item:nth-of-type(15), main section .item:nth-of-type(17), main section .item:nth-of-type(18), main section .item:nth-of-type(19), main section .item:nth-of-type(21) {
+        width: 24%; }
+      main section .item:nth-of-type(4) .inner {
+        background: #c7c4c4; }
+      main section .item:nth-of-type(7) .inner {
+        background: #efefef; }
+      main section .item:nth-of-type(8) .inner {
+        background: #c7c4c4; }
+      main section .item:nth-of-type(9) .inner {
+        background: #efefef; }
+      main section .item:nth-of-type(11) .inner {
+        background: #c7c4c4; }
+      main section .item:nth-of-type(12) .inner {
+        background: #efefef; }
+      main section .item:nth-of-type(14) .inner {
+        border-top: 2px solid #111;
+        display: flex;
+        justify-content: space-between; }
+        main section .item:nth-of-type(14) .inner input {
+          border: none;
+          font: bold 13px/1 'arial';
+          color: #111;
+          width: 200px;
+          height: 30px; }
+        main section .item:nth-of-type(14) .inner a {
+          color: #111;
+          display: inline-block;
+          text-align: right; }
+      main section .item:nth-of-type(16) {
+        width: 48%;
+        height: 400px; }
+      main section .item:nth-of-type(20) {
+        width: 48%;
+        height: 400px; }
+      main section .item .inner {
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        padding: 30px; }
+        main section .item .inner p {
+          font: bold 16px/1.3 'arial';
+          margin-bottom: 30px;
+          letter-spacing: 1px; }
+        main section .item .inner span {
+          font: 14px/1 'arial'; }
+
+/*# sourceMappingURL=style.css.map */
