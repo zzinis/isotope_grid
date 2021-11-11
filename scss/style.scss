@@ -124,6 +124,9 @@ main{
                     }
                 }
             }
+            &:nth-of-type(21){
+                .inner{background: url(../img/img5.jpg) no-repeat center/cover;}
+            }
 
             .inner{
                 width: 100%; height: 100%;

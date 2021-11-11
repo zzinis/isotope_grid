@@ -132,6 +132,8 @@ main {
           font: bold 13px/30px 'arial';
           color: #111;
           text-align: center; }
+      main section .item:nth-of-type(21) .inner {
+        background: url(../img/img5.jpg) no-repeat center/cover; }
       main section .item .inner {
         width: 100%;
         height: 100%;
