@@ -15,6 +15,8 @@ main {
   background: #d7dae3; }
   main #header {
     width: 100%;
+    width: 100%;
+    height: 100px;
     position: relative; }
     main #header .inner {
       margin: 0 auto;
@@ -135,8 +137,7 @@ main {
         main #header .inner .menuMo.on {
           left: 0; }
   main section {
-    width: 100%;
-    margin-top: 60px; }
+    width: 100%; }
     main section::after {
       content: '';
       display: block;
@@ -154,26 +155,26 @@ main {
       transition: 0.5s; }
       main section .item:nth-of-type(2), main section .item:nth-of-type(4), main section .item:nth-of-type(6), main section .item:nth-of-type(11), main section .item:nth-of-type(14), main section .item:nth-of-type(15), main section .item:nth-of-type(17), main section .item:nth-of-type(18), main section .item:nth-of-type(19), main section .item:nth-of-type(21), main section .item:nth-of-type(22), main section .item:nth-of-type(23) {
         width: 25%; }
-      main section .item:nth-of-type(4) {
+      main section .item:nth-of-type(2), main section .item:nth-of-type(6), main section .item:nth-of-type(4), main section .item:nth-of-type(11), main section .item:nth-of-type(20) {
         background: #a5adb9;
         position: relative; }
-        main section .item:nth-of-type(4) img {
+        main section .item:nth-of-type(2) img, main section .item:nth-of-type(6) img, main section .item:nth-of-type(4) img, main section .item:nth-of-type(11) img, main section .item:nth-of-type(20) img {
           width: 100%;
           height: 100%;
           object-fit: cover;
           filter: saturate(60%); }
-        main section .item:nth-of-type(4) .inner {
+        main section .item:nth-of-type(2) .inner, main section .item:nth-of-type(6) .inner, main section .item:nth-of-type(4) .inner, main section .item:nth-of-type(11) .inner, main section .item:nth-of-type(20) .inner {
           position: absolute;
           top: 0;
           left: 0; }
-          main section .item:nth-of-type(4) .inner p {
+          main section .item:nth-of-type(2) .inner p, main section .item:nth-of-type(6) .inner p, main section .item:nth-of-type(4) .inner p, main section .item:nth-of-type(11) .inner p, main section .item:nth-of-type(20) .inner p {
             color: #fff;
             z-index: 3; }
       main section .item:nth-of-type(7), main section .item:nth-of-type(9), main section .item:nth-of-type(12) {
         background: #d7dae3;
         box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1);
         transform: scale(0.96); }
-      main section .item:nth-of-type(8) .inner, main section .item:nth-of-type(11) .inner {
+      main section .item:nth-of-type(8) .inner {
         background: #a5adb9; }
       main section .item:nth-of-type(13) .inner {
         background: #ffffffbe; }
@@ -191,44 +192,36 @@ main {
           color: #111;
           display: inline-block;
           text-align: right; }
-      main section .item:nth-of-type(15) .inner {
-        background: url(../img/img2.jpg) no-repeat center/cover;
-        filter: saturate(70%); }
       main section .item:nth-of-type(16) {
         width: 50%;
         height: 360px;
         position: relative; }
-        main section .item:nth-of-type(16) .inner {
-          padding: 0; }
-          main section .item:nth-of-type(16) .inner video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            filter: grayscale(0.5); }
-          main section .item:nth-of-type(16) .inner a {
-            color: #fff;
-            font-size: 40px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 3;
-            transition: 0.5s; }
-          main section .item:nth-of-type(16) .inner .txt {
-            color: #fff;
-            position: absolute;
-            top: 50%;
-            left: 10%;
-            transform: translateY(-50%);
-            z-index: 2; }
-            main section .item:nth-of-type(16) .inner .txt p {
-              font: bold 20px/1 'arial'; }
-            main section .item:nth-of-type(16) .inner .txt span {
-              font: 18px/1 'arial'; }
-          main section .item:nth-of-type(16) .inner:hover a {
-            font-size: 50px; }
-      main section .item:nth-of-type(17) .inner {
-        background: url(../img/img4.jpg) no-repeat center/cover; }
+        main section .item:nth-of-type(16) a video {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+        main section .item:nth-of-type(16) a i {
+          color: #fff;
+          font-size: 40px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: 2;
+          transition: 0.5s; }
+        main section .item:nth-of-type(16) a:hover i {
+          font-size: 50px; }
+        main section .item:nth-of-type(16) .inner .txt {
+          color: #fff;
+          position: absolute;
+          top: 50%;
+          left: 10%;
+          transform: translateY(-50%);
+          z-index: 3; }
+          main section .item:nth-of-type(16) .inner .txt p {
+            font: bold 20px/1 'arial'; }
+          main section .item:nth-of-type(16) .inner .txt span {
+            font: 18px/1 'arial'; }
       main section .item:nth-of-type(18) .inner p, main section .item:nth-of-type(19) .inner p, main section .item:nth-of-type(23) .inner p {
         color: #b1b0b0; }
       main section .item:nth-of-type(18) .inner span, main section .item:nth-of-type(19) .inner span, main section .item:nth-of-type(23) .inner span {
@@ -247,7 +240,7 @@ main {
           content: '18';
           width: 150px;
           height: 100px;
-          color: #868686;
+          color: #fff;
           font: bold 150px/100px 'arial';
           position: absolute;
           bottom: 3%;
@@ -262,10 +255,15 @@ main {
           font: bold 13px/30px 'arial';
           color: #111;
           text-align: center; }
-      main section .item:nth-of-type(21) .inner {
-        background: url(../img/img5.jpg) no-repeat center/cover; }
-      main section .item:nth-of-type(22) .inner {
-        background: url(../img/img7.jpg) no-repeat center/cover; }
+      main section .item:nth-of-type(11), main section .item:nth-of-type(15), main section .item:nth-of-type(17), main section .item:nth-of-type(21), main section .item:nth-of-type(22) {
+        background: #a5adb9;
+        position: relative; }
+        main section .item:nth-of-type(11) a img, main section .item:nth-of-type(15) a img, main section .item:nth-of-type(17) a img, main section .item:nth-of-type(21) a img, main section .item:nth-of-type(22) a img {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          filter: saturate(60%); }
       main section .item .inner {
         width: 100%;
         height: 100%;
@@ -278,5 +276,32 @@ main {
           font: 14px/1 'arial'; }
       main section .item:hover {
         transform: scale(0.9); }
+      main section .item a {
+        z-index: 4; }
+
+.pop {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 100px;
+  z-index: 4; }
+  .pop img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; }
+  .pop iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .pop span {
+    font: bold 14px/1 'arial';
+    color: #fff;
+    position: absolute;
+    top: 55px;
+    right: 100px;
+    cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */
