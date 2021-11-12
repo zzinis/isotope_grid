@@ -22,14 +22,10 @@ main{
             margin: 0 auto;
             position: relative;
             >h1{
-                // position: absolute;
-                // top: 0;
-                // left: 50%;
-                // transform: translateX(-50%);
-                
+                                
                 a{
                     text-align: center;
-                    font: bold 28px/1 'arial';
+                    font: bold 28px/1 'Josefin Sans';
                     color: #464b56;
                     display: block;
                     margin-bottom: 40px;
@@ -52,7 +48,7 @@ main{
 
                     a{
                         color: #1F2120;
-                        font: bold 15px/35px 'arial';
+                        font: bold 15px/35px 'Josefin Sans';
                         background: #ffffffb6;
                         border: 1px solid #ffffffb6;
                         border-radius: 50px;
@@ -157,7 +153,7 @@ main{
                     text-align: center;
                     a{
                         display:block; 
-                        font:bold 24px/1 'Open Sans'; 
+                        font:bold 24px/1 'Josefin Sans'; 
                         color:#fff; 
                     }
                    
@@ -170,7 +166,7 @@ main{
                             display:block; 
                             width:100%; 
                             padding:15px 0;  
-                            font: bold 50px/1 'Open Sans'; 
+                            font: bold 50px/1 'Josefin Sans'; 
                             color:#727171; 
                             text-align:center; 
                         }
@@ -268,14 +264,14 @@ main{
                     }
                 }
                 
-                .inner{
-
+                >.inner{
                     .txt{
                         color: #fff;
                         position: absolute; top: 50%; left: 10%;
                         transform: translateY(-50%);
+                        z-index: 4;
                         p{font: bold 20px/1 'arial';}
-                        z-index: 3;
+                        
                         span{font: 18px/1 'arial';}
                     }
                     
@@ -293,7 +289,7 @@ main{
                 .inner{
                     p{
                         margin-top: 100px;
-                        font: bold 23px/1.4 'arial';
+                        font: bold 23px/1.4 'Open Sans';
                         margin-bottom: 45px;
                     }
                     &::after{
@@ -301,7 +297,7 @@ main{
                         width: 150px;
                         height: 100px;
                         color: #fff;
-                        font: bold 150px/100px 'arial';
+                        font: bold 150px/100px 'Questrial';
                         position: absolute;
                         bottom: 3%;
                         right: 20%;
@@ -339,12 +335,12 @@ main{
                 padding: 30px;
     
                 p{
-                    font: bold 16px/1.3 'arial';
+                    font: bold 16px/1.3 'Open Sans';
                     margin-bottom: 30px;
                     letter-spacing: 1px;
                 }
                 span{
-                    font: 14px/1 'arial';
+                    font: 14px/1 'Questrial';
                 }
             }
             &:hover{
