@@ -13,12 +13,11 @@ a {
 main {
   width: 100%;
   padding: 4vw;
-  background: #d7dae3; }
+  background: #eef2fd; }
   main #header {
     width: 100%;
     width: 100%;
-    height: 100px;
-    position: relative; }
+    height: 130px; }
     main #header .inner {
       margin: 0 auto;
       position: relative; }
@@ -172,7 +171,7 @@ main {
             color: #fff;
             z-index: 3; }
       main section .item:nth-of-type(7), main section .item:nth-of-type(9), main section .item:nth-of-type(12) {
-        background: #d7dae3;
+        background: #eef2fd;
         box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1);
         transform: scale(0.96); }
       main section .item:nth-of-type(8) .inner {
@@ -220,9 +219,9 @@ main {
           transform: translateY(-50%);
           z-index: 4; }
           main section .item:nth-of-type(16) > .inner .txt p {
-            font: bold 20px/1 'arial'; }
+            font: bold 20px/1 'Open Sans'; }
           main section .item:nth-of-type(16) > .inner .txt span {
-            font: 18px/1 'arial'; }
+            font: 18px/1 'Open Sans'; }
       main section .item:nth-of-type(18) .inner p, main section .item:nth-of-type(19) .inner p, main section .item:nth-of-type(23) .inner p {
         color: #b1b0b0; }
       main section .item:nth-of-type(18) .inner span, main section .item:nth-of-type(19) .inner span, main section .item:nth-of-type(23) .inner span {
@@ -304,5 +303,100 @@ main {
     top: 55px;
     right: 100px;
     cursor: pointer; }
+
+@media screen and (max-width: 1199px) {
+  main #header .inner .menuMo {
+    left: -80%;
+    width: 80%; }
+  main section {
+    width: 100%; }
+    main section .item-sizer {
+      width: 20%;
+      height: 0px;
+      opacity: 0; }
+    main section .item {
+      width: 20%;
+      height: 180px; }
+      main section .item:nth-of-type(2), main section .item:nth-of-type(4), main section .item:nth-of-type(6), main section .item:nth-of-type(11), main section .item:nth-of-type(14), main section .item:nth-of-type(15), main section .item:nth-of-type(17), main section .item:nth-of-type(18), main section .item:nth-of-type(19), main section .item:nth-of-type(21), main section .item:nth-of-type(22), main section .item:nth-of-type(23) {
+        width: 40%; }
+      main section .item:nth-of-type(15), main section .item:nth-of-type(21) {
+        background: #fff; }
+      main section .item:nth-of-type(16), main section .item:nth-of-type(20) {
+        width: 60%; }
+      main section .item:nth-of-type(16) a i {
+        color: #fff;
+        font-size: 30px; }
+      main section .item:nth-of-type(16) a:hover i {
+        font-size: 40px; }
+      main section .item:nth-of-type(16) > .inner .txt p {
+        font: bold 18px/1 'Open Sans'; }
+      main section .item:nth-of-type(16) > .inner .txt span {
+        font: 16px/1 'Open Sans'; }
+      main section .item:nth-of-type(18) .inner p, main section .item:nth-of-type(19) .inner p, main section .item:nth-of-type(23) .inner p {
+        color: #b1b0b0; }
+      main section .item:nth-of-type(18) .inner span, main section .item:nth-of-type(19) .inner span, main section .item:nth-of-type(23) .inner span {
+        font: bold 15px/1.6 arial; }
+      main section .item:nth-of-type(20) .inner p {
+        margin-top: 80px;
+        font: bold 21px/1.4 'Open Sans'; }
+      main section .item:nth-of-type(20) .inner::after {
+        width: 90px;
+        height: 90px;
+        font: bold 90px/90px 'Questrial';
+        bottom: 3%;
+        right: 13%;
+        opacity: 0.8; }
+      main section .item:nth-of-type(22) {
+        width: 60%; }
+        main section .item:nth-of-type(22) img {
+          object-position: top; }
+      main section .item .inner {
+        padding: 20px; }
+        main section .item .inner p {
+          font: bold 14px/1.3 'Open Sans'; }
+        main section .item .inner span {
+          font: 13px/1 'Questrial'; } }
+@media screen and (max-width: 559px) {
+  main #header .inner .menuMo {
+    left: -60%;
+    width: 60%; }
+    main #header .inner .menuMo #gnbMo li a {
+      font: bold 30px/1 'Josefin Sans'; }
+  main section .item-sizer {
+    width: 33.3%; }
+  main section .item {
+    width: 33.3%; }
+    main section .item:nth-of-type(2), main section .item:nth-of-type(4), main section .item:nth-of-type(6), main section .item:nth-of-type(11), main section .item:nth-of-type(14), main section .item:nth-of-type(15), main section .item:nth-of-type(17), main section .item:nth-of-type(18), main section .item:nth-of-type(19), main section .item:nth-of-type(21), main section .item:nth-of-type(22), main section .item:nth-of-type(23) {
+      width: 33.3%; }
+    main section .item:nth-of-type(7), main section .item:nth-of-type(9), main section .item:nth-of-type(12), main section .item:nth-of-type(14) {
+      display: none; }
+    main section .item:nth-of-type(16), main section .item:nth-of-type(20) {
+      width: 66.6%; }
+    main section .item:nth-of-type(16) > .inner .txt {
+      color: #111;
+      position: absolute;
+      top: 20%;
+      left: 10%; }
+      main section .item:nth-of-type(16) > .inner .txt p {
+        font: bold 16px/1 'Open Sans'; }
+      main section .item:nth-of-type(16) > .inner .txt span {
+        font: 14px/1 'Open Sans'; }
+    main section .item:nth-of-type(18) .inner span, main section .item:nth-of-type(19) .inner span, main section .item:nth-of-type(23) .inner span {
+      font: bold 13px/1.6 arial; }
+    main section .item:nth-of-type(20) .inner p {
+      font: bold 19px/1.4 'Open Sans'; }
+    main section .item:nth-of-type(20) .inner::after {
+      font: bold 80px/90px 'Questrial'; }
+    main section .item:nth-of-type(22) {
+      width: 33.3%;
+      background: #fff; }
+      main section .item:nth-of-type(22) img {
+        object-position: center; }
+    main section .item .inner {
+      padding: 20px; }
+      main section .item .inner p {
+        font: bold 13px/1.3 'Open Sans'; }
+      main section .item .inner span {
+        font: 12px/1 'Questrial'; } }
 
 /*# sourceMappingURL=style.css.map */
